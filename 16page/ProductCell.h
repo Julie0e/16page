@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "Product.h"
 #import "CartDelegate.h"
+#import "Cart.h"
+#import "CartCell.h"
 
 @interface ProductCell : UITableViewCell
 

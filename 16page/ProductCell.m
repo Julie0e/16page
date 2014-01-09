@@ -39,6 +39,8 @@
     
     self.productImage.image = [UIImage imageNamed:item.imageName];
     
+
+    
 }
 
 
@@ -48,10 +50,10 @@
 - (IBAction)addCart:(id)sender
 
 {
-    
     //셀 객체로 제품식별
     
     [self.delegate addItem:self];
+
     
 }
 

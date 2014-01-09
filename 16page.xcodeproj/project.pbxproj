@@ -29,6 +29,9 @@
 		003D0EB4187E595B00F6E0F4 /* rugbyball.png in Resources */ = {isa = PBXBuildFile; fileRef = 003D0EAF187E595B00F6E0F4 /* rugbyball.png */; };
 		003D0EB5187E595B00F6E0F4 /* basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 003D0EB0187E595B00F6E0F4 /* basketball.png */; };
 		003D0EB6187E595B00F6E0F4 /* baseball.png in Resources */ = {isa = PBXBuildFile; fileRef = 003D0EB1187E595B00F6E0F4 /* baseball.png */; };
+		003D0EB9187E5A6400F6E0F4 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D0EB8187E5A6400F6E0F4 /* Cart.m */; };
+		003D0EC2187E5E3A00F6E0F4 /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D0EC1187E5E3A00F6E0F4 /* CartCell.m */; };
+		003D0ECB187E63FF00F6E0F4 /* CartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D0ECA187E63FF00F6E0F4 /* CartItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,12 @@
 		003D0EAF187E595B00F6E0F4 /* rugbyball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rugbyball.png; sourceTree = "<group>"; };
 		003D0EB0187E595B00F6E0F4 /* basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basketball.png; sourceTree = "<group>"; };
 		003D0EB1187E595B00F6E0F4 /* baseball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseball.png; sourceTree = "<group>"; };
+		003D0EB7187E5A6400F6E0F4 /* Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cart.h; sourceTree = "<group>"; };
+		003D0EB8187E5A6400F6E0F4 /* Cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cart.m; sourceTree = "<group>"; };
+		003D0EC0187E5E3A00F6E0F4 /* CartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCell.h; sourceTree = "<group>"; };
+		003D0EC1187E5E3A00F6E0F4 /* CartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCell.m; sourceTree = "<group>"; };
+		003D0EC9187E63FF00F6E0F4 /* CartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartItem.h; sourceTree = "<group>"; };
+		003D0ECA187E63FF00F6E0F4 /* CartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +158,14 @@
 				003D0EA6187E3E9D00F6E0F4 /* CartDelegate.h */,
 				003D0EA7187E3EB900F6E0F4 /* Product.h */,
 				003D0EA8187E3EB900F6E0F4 /* Product.m */,
+				003D0EC9187E63FF00F6E0F4 /* CartItem.h */,
+				003D0ECA187E63FF00F6E0F4 /* CartItem.m */,
 				003D0EAA187E3EF200F6E0F4 /* Catalog.h */,
 				003D0EAB187E3EF200F6E0F4 /* Catalog.m */,
+				003D0EB7187E5A6400F6E0F4 /* Cart.h */,
+				003D0EB8187E5A6400F6E0F4 /* Cart.m */,
+				003D0EC0187E5E3A00F6E0F4 /* CartCell.h */,
+				003D0EC1187E5E3A00F6E0F4 /* CartCell.m */,
 			);
 			path = 16page;
 			sourceTree = "<group>";
@@ -286,12 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003D0EB9187E5A6400F6E0F4 /* Cart.m in Sources */,
 				003D0E85187E3DD900F6E0F4 /* ViewController.m in Sources */,
 				003D0EA9187E3EB900F6E0F4 /* Product.m in Sources */,
 				003D0EA5187E3E5600F6E0F4 /* ProductCell.m in Sources */,
+				003D0ECB187E63FF00F6E0F4 /* CartItem.m in Sources */,
 				003D0E7F187E3DD900F6E0F4 /* AppDelegate.m in Sources */,
 				003D0E7B187E3DD900F6E0F4 /* main.m in Sources */,
 				003D0EAC187E3EF200F6E0F4 /* Catalog.m in Sources */,
+				003D0EC2187E5E3A00F6E0F4 /* CartCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +518,7 @@
 				003D0E9F187E3DD900F6E0F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		003D0EA0187E3DD900F6E0F4 /* Build configuration list for PBXNativeTarget "16pageTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +527,7 @@
 				003D0EA2187E3DD900F6E0F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
