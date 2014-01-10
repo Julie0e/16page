@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>089C8B8D-22A1-45FD-8DC9-03B00B5FD7EC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>16page</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0EEC498-02C1-45A5-9572-0A0B31FCC8D6</key>
+		<string>https://github.com/Julie0e/16page.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>16page.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0EEC498-02C1-45A5-9572-0A0B31FCC8D6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Julie0e/16page.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0EEC498-02C1-45A5-9572-0A0B31FCC8D6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0EEC498-02C1-45A5-9572-0A0B31FCC8D6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>16page</string>
+		</dict>
+	</array>
+</dict>
+</plist>

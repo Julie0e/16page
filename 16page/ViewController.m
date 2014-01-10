@@ -12,6 +12,8 @@
 #import "Product.h"
 #import "CartDelegate.h"
 #import "Cart.h"
+#import "ProductDetailViewController.h"
+#import "CartCell.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, CartDelegate>
 
@@ -91,6 +93,12 @@
     }
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [textField resignFirstResponder];
+    return YES;
+}
+
 - (void)incQuantity:(NSString *)productCode
 {
     [self.cart incQuantity:productCode];
@@ -103,6 +111,16 @@
     [self.cart decQuantity:productCode];
     NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:1];
     [self.table reloadSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    ProductDetailViewController *detailVC = segue.destinationViewController;
+    
+    NSIndexPath *indexPath = [self.table indexPathForCell:sender];
+    Product *selectedProduct = [[Catalog defaultCatalog] productAt:indexPath.row];
+    
+    detailVC.productCode = selectedProduct.code;
 }
 - (void)viewDidLoad
 {

@@ -32,6 +32,7 @@
 		003D0EB9187E5A6400F6E0F4 /* Cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D0EB8187E5A6400F6E0F4 /* Cart.m */; };
 		003D0EC2187E5E3A00F6E0F4 /* CartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D0EC1187E5E3A00F6E0F4 /* CartCell.m */; };
 		003D0ECB187E63FF00F6E0F4 /* CartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 003D0ECA187E63FF00F6E0F4 /* CartItem.m */; };
+		007BA74B187FDBFC00B5D49A /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BA74A187FDBFC00B5D49A /* ProductDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		003D0EC1187E5E3A00F6E0F4 /* CartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCell.m; sourceTree = "<group>"; };
 		003D0EC9187E63FF00F6E0F4 /* CartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartItem.h; sourceTree = "<group>"; };
 		003D0ECA187E63FF00F6E0F4 /* CartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartItem.m; sourceTree = "<group>"; };
+		007BA749187FDBFC00B5D49A /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		007BA74A187FDBFC00B5D49A /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				003D0EB8187E5A6400F6E0F4 /* Cart.m */,
 				003D0EC0187E5E3A00F6E0F4 /* CartCell.h */,
 				003D0EC1187E5E3A00F6E0F4 /* CartCell.m */,
+				007BA749187FDBFC00B5D49A /* ProductDetailViewController.h */,
+				007BA74A187FDBFC00B5D49A /* ProductDetailViewController.m */,
 			);
 			path = 16page;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				003D0EB9187E5A6400F6E0F4 /* Cart.m in Sources */,
+				007BA74B187FDBFC00B5D49A /* ProductDetailViewController.m in Sources */,
 				003D0E85187E3DD900F6E0F4 /* ViewController.m in Sources */,
 				003D0EA9187E3EB900F6E0F4 /* Product.m in Sources */,
 				003D0EA5187E3E5600F6E0F4 /* ProductCell.m in Sources */,

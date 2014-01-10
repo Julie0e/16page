@@ -46,4 +46,18 @@ static Catalog *_instance = nil;
     return [data count];
 }
 
+- (Product *)productWithCode:(NSString *)productCode
+{
+    for (Product *one in data)
+    {
+        if ([one isEqualProduct:productCode])
+        {
+            return one;
+        }
+        
+    }
+    return nil;
+}
+
+
 @end

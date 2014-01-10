@@ -10,6 +10,7 @@
 #import "CartDelegate.h"
 #import "CartItem.h"
 
+
 @interface CartCell : UITableViewCell
 @property (weak, nonatomic)id <CartDelegate> delegate;
 - (void)setCartItem:(CartItem *)item;
